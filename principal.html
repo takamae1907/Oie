@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <audio id="audio-player" src="para.mp3"></audio>
+
+    <div class="main-container">
+        <div class="music-player">
+            <div class="song-details">
+                <div class="song-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="song-info">
+                    <p class="song-title" id="song-title">Doi sem tanto</p>
+                    <p class="artist-name" id="artist-name">Anna vitoria</p>
+                </div>
+            </div>
+            <div class="progress-bar-container" id="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="time-stamps">
+                <span id="current-time">0:00</span>
+                <span id="total-duration">0:00</span>
+            </div>
+            <div class="controls">
+                <button class="control-btn"><i class="fas fa-backward-step"></i></button>
+                <button class="control-btn play-btn" id="play-btn"><i class="fas fa-play"></i></button>
+                <button class="control-btn"><i class="fas fa-forward-step"></i></button>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <div class="image-container">
+                <img src="foto/b866ff81-297b-4f5e-b8c1-6e1141003c46.png" alt="Foto de perfil de um usuário">
+            </div>
+            <div class="static-text-container">
+                <h1>Para você</h1>
+                <p>Oieeee, bem hoje é dia dos namorados e nois estamos solteiros, e eu como um apaixonado incuravel, fiz
+                    um site de dias dos namorados, e não namoro kkkkkkk</p>
+                <br>
+
+                <p>Pode ser que o que temos ainda não tenha um nome oficial, mas o que eu sinto por você inspira gestos
+                    como este.</p>
+                <br>
+                <p>
+                    Em você, encontrei a gentileza em sua forma mais pura. Você é o tipo de pessoa com quem as horas
+                    parecem minutos. Eu me perderia em uma conversa com você ao pôr do sol, e também encontraria paz em
+                    passar horas ao seu lado, num silêncio que só é confortável com quem a gente se conecta de verdade.
+                </p>
+                <br>
+                <p>
+                    Sua alma é maravilhosa e sua beleza é daquelas que param o tempo. Sim, você é muito, muito linda.
+                </p>
+                <br>
+                <p>
+                    Olho para trás, para aquele dia em que nos conhecemos há sete anos, e mal posso acreditar na sorte
+                    que tive. Eu não fazia ideia de que estava conhecendo alguém que se tornaria tão essencial para mim.
+                </p>
+                <p>
+                    Lembro-me perfeitamente da primeira semana em que conversamos. Foi ali que me apaixonei perdidamente
+                    por você. Sei que o texto está ficando bem romântico, mas é a mais pura verdade. E olhando para o
+                    futuro, sinto que, embora este não tenha sido para ser, te amarei para sempre.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
